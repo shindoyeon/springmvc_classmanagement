@@ -25,11 +25,7 @@
 <script>
    document.getElementsByTagName("html")[0].className += " js";
 </script>
-<script
-	src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/resources/styles/bootstrap4/bootstrap.min2.css">
 <link
 	href="${pageContext.request.contextPath}/resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css"
 	rel="stylesheet" type="text/css">
@@ -47,11 +43,6 @@
 	href="${pageContext.request.contextPath}/resources/timet_assets/css/style2.css">
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/resources/timet_assets/css/subjects3.css">
-
-<script
-	src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-
 
 <meta charset="UTF-8">
 

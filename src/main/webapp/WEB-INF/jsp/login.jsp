@@ -14,8 +14,19 @@
 	href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400"
 	rel="stylesheet">
 
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/resources/assets/css/bootstrap/bootstrap.css">
+	<!-- jQuery -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"></script>
+
+	<!-- Bootstrap CSS -->
+
+	<link rel="stylesheet"
+		  href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		  integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+		  crossorigin="anonymous">
+
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/assets/fonts/ionicons/css/ionicons.min.css">
 <link rel="stylesheet"
@@ -23,21 +34,8 @@
 
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/assets/fonts/fontawesome/css/font-awesome.min.css">
-
-<script
-	src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
-
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/resources/assets/css/slick.css">
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/resources/assets/css/slick-theme.css">
-
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/resources/assets/css/helpers.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/assets/css/style.css">
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/resources/assets/css/landing-2.css">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet"
@@ -184,26 +182,6 @@
 	</c:choose>
 
 	<!-- END section -->
-
-
-
-
-	<script
-		src="${pageContext.request.contextPath}/resources/assets/js/jquery.min.js"></script>
-
-	<script
-		src="${pageContext.request.contextPath}/resources/assets/js/popper.min.js"></script>
-	<script
-		src="${pageContext.request.contextPath}/resources/assets/js/bootstrap.min.js"></script>
-	<script
-		src="${pageContext.request.contextPath}/resources/assets/js/slick.min.js"></script>
-	<script
-		src="${pageContext.request.contextPath}/resources/assets/js/jquery.mb.YTPlayer.min.js"></script>
-
-	<script
-		src="${pageContext.request.contextPath}/resources/assets/js/jquery.waypoints.min.js"></script>
-	<script
-		src="${pageContext.request.contextPath}/resources/assets/js/jquery.easing.1.3.js"></script>
 
 	<script
 		src="${pageContext.request.contextPath}/resources/assets/js/main.js"></script>

@@ -9,8 +9,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Lingua project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css"
-   href="${pageContext.request.contextPath}/resources/styles/bootstrap4/bootstrap.min.css">
 <link
    href="${pageContext.request.contextPath}/resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css"
    rel="stylesheet" type="text/css">
@@ -24,22 +22,30 @@
    href="${pageContext.request.contextPath}/resources/styles/main_styles.css?ver=1">
 <link rel="stylesheet" type="text/css"
    href="${pageContext.request.contextPath}/resources/styles/responsive.css">
-
 <link
    href='${pageContext.request.contextPath}/resources/calendar/css/fullcalendar.css'
    rel='stylesheet' />
 <link
    href='${pageContext.request.contextPath}/resources/calendar/css/fullcalendar.print.css'
    rel='stylesheet' media='print' />
-
-<script
-   src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
 <script
    src="${pageContext.request.contextPath}/resources/calendar/js/jquery-ui.custom.min.js"
    type="text/javascript"></script>
 <script
    src="${pageContext.request.contextPath}/resources/calendar/js/fullcalendar.js"
    type="text/javascript"></script>
+   <!-- jQuery -->
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+           crossorigin="anonymous"></script>
+
+   <!-- Bootstrap CSS -->
+
+   <link rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+         crossorigin="anonymous">
 <style>
 body {
    margin-top: 40px;
@@ -348,13 +354,8 @@ body {
    </div>
 
    <script
-      src="${pageContext.request.contextPath}/resources/styles/bootstrap4/popper.js"></script>
-   <script
-      src="${pageContext.request.contextPath}/resources/styles/bootstrap4/bootstrap.min.js"></script>
-   <script
       src="${pageContext.request.contextPath}/resources/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
    <script
       src="${pageContext.request.contextPath}/resources/plugins/easing/easing.js"></script>
-   <script src="${pageContext.request.contextPath}/resources/js/custom.js"></script>
 </body>
 </html>

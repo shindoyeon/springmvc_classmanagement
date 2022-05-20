@@ -14,11 +14,19 @@
 <script>
    document.getElementsByTagName("html")[0].className += " js";
 </script>
-<script
-   src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<link rel="stylesheet" type="text/css"
-   href="${pageContext.request.contextPath}/resources/styles/bootstrap4/bootstrap.min2.css">
+   <!-- jQuery -->
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+           crossorigin="anonymous"></script>
+
+   <!-- Bootstrap CSS -->
+
+   <link rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+         crossorigin="anonymous">
 <link
    href="${pageContext.request.contextPath}/resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css"
    rel="stylesheet" type="text/css">
@@ -38,10 +46,6 @@
    href="${pageContext.request.contextPath}/resources/timet_assets/css/subjects3.css">
 <link rel="stylesheet" type="text/css"
    href="${pageContext.request.contextPath}/resources/timet_assets/css/common2.css">
-
-<script
-   src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
 
@@ -349,16 +353,9 @@
    </script>
 
    <script
-      src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
-   <script
-      src="${pageContext.request.contextPath}/resources/styles/bootstrap4/popper.js"></script>
-   <script
-      src="${pageContext.request.contextPath}/resources/styles/bootstrap4/bootstrap.min.js"></script>
-   <script
       src="${pageContext.request.contextPath}/resources/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
    <script
       src="${pageContext.request.contextPath}/resources/plugins/easing/easing.js"></script>
-   <script src="${pageContext.request.contextPath}/resources/js/custom.js"></script>
 
 </body>
 </html>
